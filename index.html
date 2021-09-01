@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Amina Abdu is a Ph.D. student at the University of Michigan's School of Information." />
+
+
+
+<title>Amina A. Abdu</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+
+
+
+
+<link rel="shortcut icon" href="imgs/internet_icon.png">
+
+</head>
+
+
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-main w3-animate-opacity" style="margin-left:50px; margin-top:20px;">
+
+
+
+<!-- About section -->
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ </style> 
+
+<div class="w3-container" id="about">
+
+<h1>Amina Abdu</h1>
+
+
+
+
+<p>I am a first year Ph.D. student @ the <a target="_blank" href="https://www.si.umich.edu/programs/phd-information">University of Michigan School of Information</a> (UMSI),
+
+where I am very fortunate to be advised by <a href="https://azjacobs.com/" target="_blank">Abigail Jacobs</a> and <a href="https://irenepasquetto.com/" target="_blank">Irene Pasquetto</a>.</p>
+
+
+
+</div>
+
+<hr>
+
+
+
+<div class="w3-container" id="shenanigans">
+
+<h2>More Info</h2>
+
+<!-- > c.v. (updated september 2021) [<a href="/docs/aabdu_cv.pdf">pdf</a>]<br/> -->
+
+
+<span id="researchb">+</span>  <a onclick="toggledisplay('research'); togglebullet('researchb');">research interests<br/></a>
+
+<div id="research" style="display:none; margin-left: 26px;">
+
+My research interests center around computing practices in social prediction systems, including:
+
+<ul class="arrow">
+
+<li id="p1"><b>computational social science research</b> </li>
+
+<li id="p2"><b>government and public-interest technologies</b> </li>
+
+<li id="p3"><b>commercial A.I. tools</b> </li>
+
+</ul>
+
+In particular, I'm thinking about the mathematical operationalization of social constructs, its limitations, and the factors that mediate this translation process— including measurement, power, and law.  
+
+</div>
+
+
+<span id="pubsb">+</span>  <a onclick="toggledisplay('pubs'); togglebullet('pubsb');">publications<br/></a>
+
+<div id="pubs" style="display:none; margin-left: 26px;">
+
+<i>Coming Soon</i>
+
+<ul class="arrow">
+
+<li> I'm working on it! </li>
+
+</ul>
+
+</div>
+
+
+<span id="oldb">+</span> <a id="rclick" onclick="toggledisplay('old'); togglebullet('oldb');">in a previous life...<br/></a>
+
+<div id="old" style="display:none; margin-left: 26px;">
+
+I received my B.A. in mathematics and economics from Pomona College in Claremont, CA. 
+After graduating, I spent some time in academia doing empirical health economics research at the Harvard Kennedy School and then in tech policy working on antitrust advocacy at the Consumer Federation of America.
+These experiences shaped my current interest in the role of computation in both social science scholarship and governance.
+
+
+<br/>
+
+</div>
+
+</div>
+
+<hr>
+
+
+
+<div class="w3-container" id="updates">
+
+<h2>Recent Updates</h2>
+
+<ul class="arrow">
+
+<li><b>aug. 2021 - </b>started my Ph.D. at UMSI!</li>
+
+</ul>
+
+</div>
+
+<hr>
+
+
+
+<div class="w3-container" id="contact">
+
+<h2>Contact</h2>
+
+<p>please talk to me! </p>
+
+<p><b>email: </b> aabdu [at] umich [dot] edu</p>
+
+<div>
+
+<img src="imgs/github_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="Github logo"/>
+
+<a href="https://github.com/aminaxabdu" target="_blank">github</a>
+
+
+<div>
+
+<img src="imgs/linkedin_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="LinkedIn icon"/>
+
+<a href="https://www.linkedin.com/in/aminaabdu/" target="_blank">linkedin</a>
+
+</div>
+
+<div>
+
+<img src="imgs/twitter_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="Twitter icon"/>
+
+<a href="https://twitter.com/aminaxabdu" target="_blank">twitter</a>
+
+</div>
+
+</div>
+
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-bottom w3-padding">
+
+</footer>
+
+
+
+<!-- End page content -->
+
+</div>
+
+
+
+<script>
+
+// script for toggling display of divs
+
+// from: https://stackoverflow.com/a/8454174/12893290
+
+function toggledisplay(elementID) {
+(function(style) {
+style.display = style.display === 'none' ? '' : 'none';
+
+})(document.getElementById(elementID).style);
+
+}
+
+</script>
+
+<script>
+
+    // script for toggling display of divs
+    
+    // from: https://stackoverflow.com/a/8454174/12893290
+    
+function togglebullet(elementIDb) {
+if (document.getElementById(elementIDb).innerHTML=='+'){    
+    document.getElementById(elementIDb).innerHTML='-';
+}
+else{
+    document.getElementById(elementIDb).innerHTML='+';
+}
+    
+}
+    
+</script>
+    
+
+
+
+
+</body>
+
+</html>
